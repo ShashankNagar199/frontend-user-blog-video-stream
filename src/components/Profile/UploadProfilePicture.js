@@ -29,7 +29,7 @@ const UploadProfilePicture = ({ onUploadSuccess }) => {
           allowOutsideClick: false,
           showConfirmButton: false,
         });
-        onUploadSuccess(response.data.profilePictureUrl); // Ensure the URL is correct
+        onUploadSuccess(response.data.profilePictureUrl);
       })
       .catch((error) => {
         console.error(
