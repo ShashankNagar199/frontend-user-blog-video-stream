@@ -1,0 +1,201 @@
+.video-listing-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    background-color: lightgray;
+}
+.link {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.user-section h2 {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: lightgray;
+    height: 50px;
+}
+
+.video-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1rem;
+    text-align: center;
+}
+
+.video-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+.view-more{
+    text-align: center;
+    padding-top: 50%;
+    font-size: larger;
+}
+
+.video-card h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.video-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.video-card video {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: gray;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.right-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.profile-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.profile-button:hover {
+    background-color: #218838;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+    background-color: lightgray;
+}
+
+.user-info h3 {
+    margin: 0;
+}
+
+.instruction-box {
+    background-color: #f8f9fa;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .instruction-box p {
+    margin: 0;
+    padding: 0;
+  }
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin-bottom: 20px;
+  }
+  
+  .profile-redirect-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .profile-redirect-button:hover {
+    background-color: #0056b3;
+  }
