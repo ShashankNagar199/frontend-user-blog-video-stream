@@ -66,7 +66,7 @@ const VideoUpload = ({ onUploadSuccess }) => {
       setMessage(
         typeof errorMessage === "string"
           ? errorMessage
-          : "Error uploading video"
+          : "Error uploading video because video size is too large"
       );
     } finally {
       setLoading(false);
